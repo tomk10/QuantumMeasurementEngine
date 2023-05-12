@@ -86,7 +86,7 @@ for j in [0.1,0.2,0.5]:
         #W_eras = T_demon * np.log(2)
         
         # Calculate efficency
-        COM[x,y] = Q_therm / (Q_m + W_eras)
+        COM[x,y] = Q_therm / (W_ext + W_eras)
         x+=1
     y+=1
 
